@@ -1,0 +1,51 @@
+#environment variables
+.env
+.env*.local
+!.env.example
+
+#OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+dist/
+build/
+
+# misc
+*.pem
+.obsidian/
+
+#debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# vercel
+.vercel
+
+# vscode
+.vscode
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# cache
+.cache/
+.eslintcache
+*.tsbuildinfo

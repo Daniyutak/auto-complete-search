@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+TASKS.md
+COMMENTS.md
+
+# IDE
+.vscode
+.idea
+
+# Dependencies
+node_modules
+
+# Build
+dist
+build
+coverage
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Cache
+.cache
+.eslintcache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.obsidian
