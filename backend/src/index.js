@@ -1,9 +1,18 @@
 import dotenv from "dotenv";
+import { ApolloServer } from "apollo-server";
+import typeDefs from "./graphql/schema.js";
+import resolvers from "./graphql/resolvers.js";
 
 dotenv.config();
 
-console.log("Servidor iniciando...");
-console.log("PORT =", process.env.PORT);
-console.log("NODE_ENV =", process.env.NODE_ENV);
-console.log("MIN_QUERY_LENGTH =", process.env.MIN_QUERY_LENGTH);
-console.log("MAX_SUGGESTIONS =", process.env.MAX_SUGGESTIONS);
+const server = new ApolloServer({
+    typeDefs,
+    resolvers
+});
+
+server.listen({
+    port: process.env.PORT
+}).then(({ url }) => {
+    console.log(`Server ready: ${url}`);
+});
+
