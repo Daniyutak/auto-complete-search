@@ -1,34 +1,16 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
-
-
-const suggestionsList = [
-    "javascript",
-    "java",
-    "python",
-    "react",
-    "docker",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-    "javascript1",
-    "java1",
-    "python1",
-    "react1",
-    "docker1",
-    "java5",
-    "python5",
-    "react5",
-    "docke2r1",
-    "nisi ut aliquip ex ea commodo consequat"
-];
-
+import { useLazyQuery } from "@apollo/client/react";
+import { GET_SUGGESTIONS } from "../graphql/queries";
 
 export default function SearchBar() {
 
     const [value, setValue] = useState("");
     const [previewValue, setPreviewValue] = useState("");
+    const [suggestions, setSuggestions] = useState([]);
+
+    const [getSuggestions, { data }] = useLazyQuery(GET_SUGGESTIONS);
 
     const navigate = useNavigate();
 
@@ -74,7 +56,7 @@ export default function SearchBar() {
 
     function handleSuggestionClick(item) {
 
-        setValue(item);
+        setValue(item.text);
         setPreviewValue("");
 
     }
@@ -90,9 +72,24 @@ export default function SearchBar() {
                     type="text"
                     placeholder="Pesquisar..."
                     value={previewValue || value}
-                    onChange={(event) => {
-                        setValue(event.target.value);
-                        setPreviewValue("");
+                    onChange={async (event) => {const text = event.target.value;
+                setValue(text);
+                setPreviewValue("");
+
+                if (text.length >= 4) {
+                    const response = await getSuggestions({
+
+                    variables: {
+                query: text
+                }
+
+                });
+
+                setSuggestions(
+                response.data.suggestions
+                );
+
+                    } else {SetSuggestions([]);}
                     }}
                     onKeyDown={handleKeyDown}
                     className="
@@ -159,11 +156,11 @@ export default function SearchBar() {
                         >
 
                             {
-                                suggestionsList.map((item) => (
+                                suggestions.map((item) => (
 
                                     <div
-                                        key={item}
-                                        onMouseEnter={() => setPreviewValue(item)}
+                                        key={item.id}
+                                        onMouseEnter={() => setPreviewValue(item.text)}
                                         onMouseLeave={() => setPreviewValue("")}
                                         onClick={() => handleSuggestionClick(item)}
                                         className="
@@ -177,7 +174,7 @@ export default function SearchBar() {
                                             text-left
                                         "
                                     >
-                                        {highlightMatch(item)}
+                                        {highlightMatch(item.text)}
                                     </div>
 
                                 ))
