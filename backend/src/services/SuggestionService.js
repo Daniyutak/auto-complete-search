@@ -4,12 +4,8 @@ import env from "../config/env.js";
 import normalizeText from "../utils/normalizeText.js";
 
 const indexedSuggestions = suggestions.map((suggestion) => ({
-
     ...suggestion,
-
-    normalizedText:
-        normalizeText(suggestion.text)
-
+    normalizedText: normalizeText(suggestion.text),
 }));
 
 class SuggestionService {
@@ -35,29 +31,32 @@ class SuggestionService {
 
     searchSuggestions(query) {
 
-    const suggestionText = suggestion.normalizedText;
+    const normalizedQuery = normalizeText(query);
 
     const results = [];
 
-    for (const suggestion of suggestions) {
+    for (const suggestion of indexedSuggestions) {
 
-        const suggestionText =
-            normalizeText(suggestion.text);
+        const text = suggestion.normalizedText;
 
-        if (!suggestionText.includes(normalizedQuery)) {
+        // Ignora tudo que não começa com a pesquisa
+        if (!text.startsWith(normalizedQuery)) {
             continue;
         }
 
         results.push(suggestion);
 
+        // Encontrou a quantidade máxima?
+        // Pode parar imediatamente.
         if (results.length >= env.MAX_SUGGESTIONS) {
-            break;
+            return results;
         }
 
     }
 
     return results;
-    }
+
+}
 
 }
 
