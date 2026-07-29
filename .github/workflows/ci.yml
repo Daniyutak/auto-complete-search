@@ -1,0 +1,130 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - main/ci
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  backend:
+
+    name: Backend
+
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+
+      # Baixa o código da branch
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Instala o Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+
+      # Instala todas as dependências exatamente como estão no package-lock.json
+      - name: Install dependencies
+        run: npm ci
+
+      # Executa os testes automatizados
+      # - name: Run tests
+      #  run: npm test
+
+      # ============================================================
+      # Etapas futuras
+      # ============================================================
+
+      # Quando existir um processo de build do backend
+      #
+      # - name: Build backend
+      #   run: npm run build
+
+      # Quando existir lint
+      #
+      # - name: Run ESLint
+      #   run: npm run lint
+
+      # Quando existir formatação automática
+      #
+      # - name: Check formatting
+      #   run: npm run format:check
+
+      # Quando existir cobertura de testes
+      #
+      # - name: Generate coverage
+      #   run: npm run test:coverage
+
+  # ==============================================================
+  # Frontend (React)
+  # ==============================================================
+
+  # frontend:
+  #
+  #   name: Frontend
+  #
+  #   runs-on: ubuntu-latest
+  #
+  #   defaults:
+  #     run:
+  #       working-directory: frontend
+  #
+  #   steps:
+  #
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v4
+  #
+  #     - name: Setup Node.js
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: 22
+  #         cache: npm
+  #         cache-dependency-path: frontend/package-lock.json
+  #
+  #     - name: Install dependencies
+  #       run: npm ci
+  #
+  #     - name: Build frontend
+  #       run: npm run build
+  #
+  #     - name: Run frontend tests
+  #       run: npm test
+
+  # ==============================================================
+  # Integração (Docker)
+  # ==============================================================
+
+  # integration:
+  #
+  #   name: Integration Tests
+  #
+  #   runs-on: ubuntu-latest
+  #
+  #   needs:
+  #     - backend
+  #     - frontend
+  #
+  #   steps:
+  #
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v4
+  #
+  #     - name: Start containers
+  #       run: docker compose up -d
+  #
+  #     - name: Run integration tests
+  #       run: npm run test:integration
