@@ -68,6 +68,10 @@ A aplicação é composta por um frontend em React e um backend GraphQL em conju
 ## Desenvolvimento
 Tanto o backend quanto o frontend tem seus próprios arquivos .env, importantes para configurar o programa corretamente. Altere-os seguindo o setup que deseja e utilizando o .env.example para ajustar as variáveis. 
 
+Peço que tome muito cuidado com as .env e se certifique que a .env do front end esteja com "VITE_API_URL=[endereço]" e que este endereço seja o mesmo que a porta no docker e no backend, para se certificar que vai funcionar. Extra cuidado, pois apesar do cuidado de utilizar essas variáveis para facilitar, no meio do sono acabei não percebendo a inconsistencia e tive que reajustar.
+
+Depois de verificar ambas as informações nos diretórios, utilize comandos de docker para rodar o projeto. Também é possível rodar sem docker utilizando npm install se tiver node.
+
 ```bash
 # Backend
 cd backend
@@ -79,7 +83,8 @@ cd frontend
 ## Docker
 
 ```bash
-docker compose up
+docker compose build
+docker compose
 ```
 
 ---
