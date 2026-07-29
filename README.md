@@ -18,9 +18,9 @@
 
 ---
 
-Sistema de auto-completar desenvolvido como solução para o desafio técnico do **Jusbrasil**.
-
-A aplicação é composta por um frontend em React e um backend GraphQL responsável por fornecer sugestões de busca em tempo real.
+Sistema de auto-completar desenvolvido como solução para desafio técnico.
+Essa aplicação tem a implementação de uma barra de pesquisa em front end (ReactJS) e um backend básico que lida com requisições StartWith, buscando no banco de dados o que o usuário pode estar pesquisando. Tive a oportunidade de aprender muitas coisas com esse projeto, visto que nunca tinha usado 60% do que foi utilizado. Para ver com mais detalhes meus comentários, consulte a documentação.
+A aplicação é composta por um frontend em React e um backend GraphQL em conjunto com uma base json responsável por fornecer sugestões de busca em tempo real.
 
 ---
 
@@ -31,15 +31,15 @@ A aplicação é composta por um frontend em React e um backend GraphQL respons�
 ### Progresso
 
 - [x] Planejamento
-- [ ] Estrutura inicial
-- [ ] Backend GraphQL
-- [ ] Serviço de sugestões
-- [ ] Frontend
-- [ ] Autocomplete
-- [ ] Docker
-- [ ] GitHub Actions
+- [x] Estrutura inicial
+- [x] Backend GraphQL
+- [x] Serviço de sugestões
+- [x] Frontend
+- [x] Autocomplete
+- [x] Docker
+- [x] GitHub Actions
 - [ ] Testes
-- [ ] Documentação
+- [x] Documentação
 
 ---
 
@@ -62,11 +62,11 @@ A aplicação é composta por um frontend em React e um backend GraphQL respons�
 
 ## Pré-requisitos
 
-- Node.js 22+
 - Docker
 - Docker Compose
 
-## Desenvolvimento *(work in progress...)*
+## Desenvolvimento
+Tanto o backend quanto o frontend tem seus próprios arquivos .env, importantes para configurar o programa corretamente. Altere-os seguindo o setup que deseja e utilizando o .env.example para ajustar as variáveis. 
 
 ```bash
 # Backend
@@ -76,7 +76,7 @@ cd backend
 cd frontend
 ```
 
-## Docker *(work in progress...)*
+## Docker
 
 ```bash
 docker compose up
@@ -84,6 +84,15 @@ docker compose up
 
 ---
 
+## bug: interface
+
+A interface abaixo é o produto final do código:
+
+https://github.com/user-attachments/assets/2f0528f0-59c0-467d-9e94-47e6facfb859
+
+Nela é possível perceber 2 bugs, um deles decorrente da escolha lógica que fiz para o front end (o negrito nas palavras que não são identicas) e o outro é desconhecido, que é a interface sumindo ao atualizar a página. Não consegui isolar os casos para aperfeiçoar esse produto.
+
+________
 # 📄 Documentação
 
 O desenvolvimento do projeto é acompanhado pelos seguintes documentos:
@@ -91,6 +100,6 @@ O desenvolvimento do projeto é acompanhado pelos seguintes documentos:
 | Arquivo | Descrição |
 |---------|-----------|
 | **TASKS.md** | Planejamento e microtarefas |
-| **COMMENTS.md** | Decisões arquiteturais, reflexões e uso de IA |
+| **HISTORY.md** | Decisões arquiteturais, reflexões e uso de IA |
 
 ---
