@@ -1,0 +1,1072 @@
+[
+  {
+    "id": "10262aa4",
+    "text": "ação anulatória",
+    "href": "/acoes/acao-anulatoria"
+  },
+  {
+    "id": "cc08f404",
+    "text": "ação cautelar",
+    "href": "/acoes/acao-cautelar"
+  },
+  {
+    "id": "47d1ffb1",
+    "text": "ação civil pública",
+    "href": "/acoes/acao-civil-publica"
+  },
+  {
+    "id": "ef3b7ee3",
+    "text": "ação coletiva",
+    "href": "/acoes/acao-coletiva"
+  },
+  {
+    "id": "103bb559",
+    "text": "ação de alimentos",
+    "href": "/acoes/acao-de-alimentos"
+  },
+  {
+    "id": "4fbc1b68",
+    "text": "ação de cobrança",
+    "href": "/acoes/acao-de-cobranca"
+  },
+  {
+    "id": "905caae0",
+    "text": "ação de consignação em pagamento",
+    "href": "/acoes/acao-de-consignacao-em-pagamento"
+  },
+  {
+    "id": "9cf9a0fb",
+    "text": "ação de despejo",
+    "href": "/acoes/acao-de-despejo"
+  },
+  {
+    "id": "ff80ea0b",
+    "text": "ação de execução",
+    "href": "/acoes/acao-de-execucao"
+  },
+  {
+    "id": "a30c7657",
+    "text": "ação de indenização",
+    "href": "/acoes/acao-de-indenizacao"
+  },
+  {
+    "id": "5723d550",
+    "text": "ação declaratória",
+    "href": "/acoes/acao-declaratoria"
+  },
+  {
+    "id": "db334aaa",
+    "text": "ação monitória",
+    "href": "/acoes/acao-monitoria"
+  },
+  {
+    "id": "3475d7d0",
+    "text": "ação penal",
+    "href": "/acoes/acao-penal"
+  },
+  {
+    "id": "ed86f8b0",
+    "text": "ação popular",
+    "href": "/acoes/acao-popular"
+  },
+  {
+    "id": "746d8ae9",
+    "text": "ação possessória",
+    "href": "/acoes/acao-possessoria"
+  },
+  {
+    "id": "245a3d07",
+    "text": "ação previdenciária",
+    "href": "/acoes/acao-previdenciaria"
+  },
+  {
+    "id": "b41f6322",
+    "text": "ação rescisória",
+    "href": "/acoes/acao-rescisoria"
+  },
+  {
+    "id": "e773f6fb",
+    "text": "agravo de instrumento",
+    "href": "/recursos/agravo-de-instrumento"
+  },
+  {
+    "id": "87d2ee32",
+    "text": "agravo interno",
+    "href": "/recursos/agravo-interno"
+  },
+  {
+    "id": "ba22c830",
+    "text": "agravo em recurso especial",
+    "href": "/recursos/agravo-em-recurso-especial"
+  },
+  {
+    "id": "d72818e3",
+    "text": "apelação cível",
+    "href": "/acoes/apelacao-civel"
+  },
+  {
+    "id": "312ef36b",
+    "text": "apelação criminal",
+    "href": "/acoes/apelacao-criminal"
+  },
+  {
+    "id": "6588ebd6",
+    "text": "arbitragem",
+    "href": "/geral/arbitragem"
+  },
+  {
+    "id": "c92cc2ac",
+    "text": "assistência judiciária gratuita",
+    "href": "/geral/assistencia-judiciaria-gratuita"
+  },
+  {
+    "id": "64141cce",
+    "text": "audiência de conciliação",
+    "href": "/acoes/audiencia-de-conciliacao"
+  },
+  {
+    "id": "06b15435",
+    "text": "audiência de instrução",
+    "href": "/geral/audiencia-de-instrucao"
+  },
+  {
+    "id": "a904e375",
+    "text": "citação",
+    "href": "/acoes/citacao"
+  },
+  {
+    "id": "d361307f",
+    "text": "código civil",
+    "href": "/codigos/codigo-civil"
+  },
+  {
+    "id": "093aafe6",
+    "text": "código penal",
+    "href": "/codigos/codigo-penal"
+  },
+  {
+    "id": "f91f6a8f",
+    "text": "código de processo civil",
+    "href": "/codigos/codigo-de-processo-civil"
+  },
+  {
+    "id": "f94429d8",
+    "text": "código de processo penal",
+    "href": "/codigos/codigo-de-processo-penal"
+  },
+  {
+    "id": "c51a50a7",
+    "text": "código de defesa do consumidor",
+    "href": "/codigos/codigo-de-defesa-do-consumidor"
+  },
+  {
+    "id": "c91233d6",
+    "text": "competência",
+    "href": "/geral/competencia"
+  },
+  {
+    "id": "6625921f",
+    "text": "conciliação",
+    "href": "/acoes/conciliacao"
+  },
+  {
+    "id": "72ade05c",
+    "text": "constituição federal",
+    "href": "/geral/constituicao-federal"
+  },
+  {
+    "id": "81d605bd",
+    "text": "contestação",
+    "href": "/acoes/contestacao"
+  },
+  {
+    "id": "04097176",
+    "text": "contraditório",
+    "href": "/geral/contraditorio"
+  },
+  {
+    "id": "f061dfe7",
+    "text": "cumprimento de sentença",
+    "href": "/geral/cumprimento-de-sentenca"
+  },
+  {
+    "id": "6443fc34",
+    "text": "curatela",
+    "href": "/geral/curatela"
+  },
+  {
+    "id": "651512ae",
+    "text": "defensoria pública",
+    "href": "/geral/defensoria-publica"
+  },
+  {
+    "id": "cfa0d1a2",
+    "text": "depósito judicial",
+    "href": "/geral/deposito-judicial"
+  },
+  {
+    "id": "be1803eb",
+    "text": "direito administrativo",
+    "href": "/ramos/direito-administrativo"
+  },
+  {
+    "id": "5bb88d85",
+    "text": "direito ambiental",
+    "href": "/ramos/direito-ambiental"
+  },
+  {
+    "id": "9a68fcc4",
+    "text": "direito civil",
+    "href": "/ramos/direito-civil"
+  },
+  {
+    "id": "d2b3c0df",
+    "text": "direito constitucional",
+    "href": "/ramos/direito-constitucional"
+  },
+  {
+    "id": "61c9d94e",
+    "text": "direito da criança e do adolescente",
+    "href": "/ramos/direito-da-crianca-e-do-adolescente"
+  },
+  {
+    "id": "a4a3092f",
+    "text": "direito das sucessões",
+    "href": "/ramos/direito-das-sucessoes"
+  },
+  {
+    "id": "558922bd",
+    "text": "direito de família",
+    "href": "/ramos/direito-de-familia"
+  },
+  {
+    "id": "2f64130f",
+    "text": "direito do consumidor",
+    "href": "/ramos/direito-do-consumidor"
+  },
+  {
+    "id": "a8015d54",
+    "text": "direito do trabalho",
+    "href": "/ramos/direito-do-trabalho"
+  },
+  {
+    "id": "e69dfd06",
+    "text": "direito eleitoral",
+    "href": "/ramos/direito-eleitoral"
+  },
+  {
+    "id": "e4c04879",
+    "text": "direito empresarial",
+    "href": "/ramos/direito-empresarial"
+  },
+  {
+    "id": "80c237ef",
+    "text": "direito internacional",
+    "href": "/ramos/direito-internacional"
+  },
+  {
+    "id": "d9794c83",
+    "text": "direito penal",
+    "href": "/ramos/direito-penal"
+  },
+  {
+    "id": "118dffb8",
+    "text": "direito previdenciário",
+    "href": "/ramos/direito-previdenciario"
+  },
+  {
+    "id": "7bfa1643",
+    "text": "direito processual civil",
+    "href": "/ramos/direito-processual-civil"
+  },
+  {
+    "id": "1be47c3a",
+    "text": "direito processual penal",
+    "href": "/ramos/direito-processual-penal"
+  },
+  {
+    "id": "732def79",
+    "text": "direito tributário",
+    "href": "/ramos/direito-tributario"
+  },
+  {
+    "id": "dc8d2e7f",
+    "text": "embargos à execução",
+    "href": "/geral/embargos-a-execucao"
+  },
+  {
+    "id": "0aefaf4c",
+    "text": "embargos de declaração",
+    "href": "/acoes/embargos-de-declaracao"
+  },
+  {
+    "id": "ba8101e1",
+    "text": "execução fiscal",
+    "href": "/geral/execucao-fiscal"
+  },
+  {
+    "id": "b29d3faf",
+    "text": "falência",
+    "href": "/geral/falencia"
+  },
+  {
+    "id": "eec0fcf8",
+    "text": "recuperação judicial",
+    "href": "/acoes/recuperacao-judicial"
+  },
+  {
+    "id": "fd5f09dc",
+    "text": "guarda compartilhada",
+    "href": "/geral/guarda-compartilhada"
+  },
+  {
+    "id": "0f59c9ec",
+    "text": "habeas corpus",
+    "href": "/geral/habeas-corpus"
+  },
+  {
+    "id": "3b79656d",
+    "text": "habeas data",
+    "href": "/geral/habeas-data"
+  },
+  {
+    "id": "12d11ef4",
+    "text": "homologação de acordo",
+    "href": "/acoes/homologacao-de-acordo"
+  },
+  {
+    "id": "e40c54ee",
+    "text": "improbidade administrativa",
+    "href": "/geral/improbidade-administrativa"
+  },
+  {
+    "id": "74513e48",
+    "text": "inquérito policial",
+    "href": "/geral/inquerito-policial"
+  },
+  {
+    "id": "f3b96b50",
+    "text": "inventário",
+    "href": "/geral/inventario"
+  },
+  {
+    "id": "36f2a086",
+    "text": "jurisdição",
+    "href": "/geral/jurisdicao"
+  },
+  {
+    "id": "1e09d06a",
+    "text": "jurisprudência",
+    "href": "/geral/jurisprudencia"
+  },
+  {
+    "id": "4c94c70a",
+    "text": "juizado especial",
+    "href": "/geral/juizado-especial"
+  },
+  {
+    "id": "75107fb3",
+    "text": "lei maria da penha",
+    "href": "/leis/lei-maria-da-penha"
+  },
+  {
+    "id": "2235d965",
+    "text": "lei geral de proteção de dados",
+    "href": "/leis/lei-geral-de-protecao-de-dados"
+  },
+  {
+    "id": "68e95281",
+    "text": "licitação",
+    "href": "/acoes/licitacao"
+  },
+  {
+    "id": "769fecc7",
+    "text": "mandado de injunção",
+    "href": "/geral/mandado-de-injuncao"
+  },
+  {
+    "id": "9cc9b24f",
+    "text": "mandado de segurança",
+    "href": "/geral/mandado-de-seguranca"
+  },
+  {
+    "id": "04fb72b4",
+    "text": "mediação",
+    "href": "/acoes/mediacao"
+  },
+  {
+    "id": "0e31d70a",
+    "text": "ministério público",
+    "href": "/geral/ministerio-publico"
+  },
+  {
+    "id": "6c82aadf",
+    "text": "pedido liminar",
+    "href": "/geral/pedido-liminar"
+  },
+  {
+    "id": "9c7526dc",
+    "text": "perícia judicial",
+    "href": "/geral/pericia-judicial"
+  },
+  {
+    "id": "97f7f1b0",
+    "text": "petição inicial",
+    "href": "/geral/peticao-inicial"
+  },
+  {
+    "id": "3cd322cf",
+    "text": "posse",
+    "href": "/geral/posse"
+  },
+  {
+    "id": "20c6f16b",
+    "text": "prescrição",
+    "href": "/geral/prescricao"
+  },
+  {
+    "id": "7c4861bd",
+    "text": "prisão preventiva",
+    "href": "/geral/prisao-preventiva"
+  },
+  {
+    "id": "b5ceb015",
+    "text": "prisão temporária",
+    "href": "/geral/prisao-temporaria"
+  },
+  {
+    "id": "ec7c3819",
+    "text": "processo eletrônico",
+    "href": "/geral/processo-eletronico"
+  },
+  {
+    "id": "4d3e6d2d",
+    "text": "prova documental",
+    "href": "/geral/prova-documental"
+  },
+  {
+    "id": "137a845d",
+    "text": "prova testemunhal",
+    "href": "/geral/prova-testemunhal"
+  },
+  {
+    "id": "0745538c",
+    "text": "prova pericial",
+    "href": "/geral/prova-pericial"
+  },
+  {
+    "id": "28d26a35",
+    "text": "recurso adesivo",
+    "href": "/recursos/recurso-adesivo"
+  },
+  {
+    "id": "a10aeb95",
+    "text": "recurso especial",
+    "href": "/recursos/recurso-especial"
+  },
+  {
+    "id": "7204c462",
+    "text": "recurso extraordinário",
+    "href": "/recursos/recurso-extraordinario"
+  },
+  {
+    "id": "d15f4e18",
+    "text": "recurso ordinário",
+    "href": "/recursos/recurso-ordinario"
+  },
+  {
+    "id": "5dc1a8fd",
+    "text": "sentença",
+    "href": "/geral/sentenca"
+  },
+  {
+    "id": "0b3f6f27",
+    "text": "súmula",
+    "href": "/geral/sumula"
+  },
+  {
+    "id": "0107cb33",
+    "text": "súmula vinculante",
+    "href": "/geral/sumula-vinculante"
+  },
+  {
+    "id": "bd9337b0",
+    "text": "tutela antecipada",
+    "href": "/geral/tutela-antecipada"
+  },
+  {
+    "id": "948acd10",
+    "text": "tutela de evidência",
+    "href": "/geral/tutela-de-evidencia"
+  },
+  {
+    "id": "3366caa6",
+    "text": "tutela provisória",
+    "href": "/geral/tutela-provisoria"
+  },
+  {
+    "id": "5c6b847e",
+    "text": "tutela de urgência",
+    "href": "/geral/tutela-de-urgencia"
+  },
+  {
+    "id": "2534d482",
+    "text": "usucapião",
+    "href": "/geral/usucapiao"
+  },
+  {
+    "id": "a6842e0c",
+    "text": "vara cível",
+    "href": "/geral/vara-civel"
+  },
+  {
+    "id": "1fc7a1a0",
+    "text": "vara criminal",
+    "href": "/geral/vara-criminal"
+  },
+  {
+    "id": "8054ddec",
+    "text": "vínculo empregatício",
+    "href": "/geral/vinculo-empregaticio"
+  },
+  {
+    "id": "6880cbab",
+    "text": "violência doméstica",
+    "href": "/geral/violencia-domestica"
+  },
+  {
+    "id": "47bade18",
+    "text": "ação anulatória 2",
+    "href": "/acoes/acao-anulatoria"
+  },
+  {
+    "id": "cea097f9",
+    "text": "ação cautelar 2",
+    "href": "/acoes/acao-cautelar"
+  },
+  {
+    "id": "548404cd",
+    "text": "ação civil pública 2",
+    "href": "/acoes/acao-civil-publica"
+  },
+  {
+    "id": "85b8ee58",
+    "text": "ação coletiva 2",
+    "href": "/acoes/acao-coletiva"
+  },
+  {
+    "id": "61f9541c",
+    "text": "ação de alimentos 2",
+    "href": "/acoes/acao-de-alimentos"
+  },
+  {
+    "id": "1d2c19e1",
+    "text": "ação de cobrança 2",
+    "href": "/acoes/acao-de-cobranca"
+  },
+  {
+    "id": "5dc62eff",
+    "text": "ação de consignação em pagamento 2",
+    "href": "/acoes/acao-de-consignacao-em-pagamento"
+  },
+  {
+    "id": "dbcaf1ec",
+    "text": "ação de despejo 2",
+    "href": "/acoes/acao-de-despejo"
+  },
+  {
+    "id": "0dd9db4d",
+    "text": "ação de execução 2",
+    "href": "/acoes/acao-de-execucao"
+  },
+  {
+    "id": "fa4df7b9",
+    "text": "ação de indenização 2",
+    "href": "/acoes/acao-de-indenizacao"
+  },
+  {
+    "id": "82a45683",
+    "text": "ação declaratória 2",
+    "href": "/acoes/acao-declaratoria"
+  },
+  {
+    "id": "62f6d2c2",
+    "text": "ação monitória 2",
+    "href": "/acoes/acao-monitoria"
+  },
+  {
+    "id": "fd9aba3e",
+    "text": "ação penal 2",
+    "href": "/acoes/acao-penal"
+  },
+  {
+    "id": "e9941807",
+    "text": "ação popular 2",
+    "href": "/acoes/acao-popular"
+  },
+  {
+    "id": "9704f233",
+    "text": "ação possessória 2",
+    "href": "/acoes/acao-possessoria"
+  },
+  {
+    "id": "705ae929",
+    "text": "ação previdenciária 2",
+    "href": "/acoes/acao-previdenciaria"
+  },
+  {
+    "id": "03fab47d",
+    "text": "ação rescisória 2",
+    "href": "/acoes/acao-rescisoria"
+  },
+  {
+    "id": "2d29d0d5",
+    "text": "agravo de instrumento 2",
+    "href": "/recursos/agravo-de-instrumento"
+  },
+  {
+    "id": "735d1416",
+    "text": "agravo interno 2",
+    "href": "/recursos/agravo-interno"
+  },
+  {
+    "id": "bae3089a",
+    "text": "agravo em recurso especial 2",
+    "href": "/recursos/agravo-em-recurso-especial"
+  },
+  {
+    "id": "61351b54",
+    "text": "apelação cível 2",
+    "href": "/acoes/apelacao-civel"
+  },
+  {
+    "id": "b985e9f7",
+    "text": "apelação criminal 2",
+    "href": "/acoes/apelacao-criminal"
+  },
+  {
+    "id": "27acd11f",
+    "text": "arbitragem 2",
+    "href": "/geral/arbitragem"
+  },
+  {
+    "id": "012bb8e9",
+    "text": "assistência judiciária gratuita 2",
+    "href": "/geral/assistencia-judiciaria-gratuita"
+  },
+  {
+    "id": "a441b447",
+    "text": "audiência de conciliação 2",
+    "href": "/acoes/audiencia-de-conciliacao"
+  },
+  {
+    "id": "14762d94",
+    "text": "audiência de instrução 2",
+    "href": "/geral/audiencia-de-instrucao"
+  },
+  {
+    "id": "6f32aef0",
+    "text": "citação 2",
+    "href": "/acoes/citacao"
+  },
+  {
+    "id": "88fcbc0f",
+    "text": "código civil 2",
+    "href": "/codigos/codigo-civil"
+  },
+  {
+    "id": "ed6aa269",
+    "text": "código penal 2",
+    "href": "/codigos/codigo-penal"
+  },
+  {
+    "id": "f18785bd",
+    "text": "código de processo civil 2",
+    "href": "/codigos/codigo-de-processo-civil"
+  },
+  {
+    "id": "10b17132",
+    "text": "código de processo penal 2",
+    "href": "/codigos/codigo-de-processo-penal"
+  },
+  {
+    "id": "5fed499e",
+    "text": "código de defesa do consumidor 2",
+    "href": "/codigos/codigo-de-defesa-do-consumidor"
+  },
+  {
+    "id": "790f33f2",
+    "text": "competência 2",
+    "href": "/geral/competencia"
+  },
+  {
+    "id": "35ed86ae",
+    "text": "conciliação 2",
+    "href": "/acoes/conciliacao"
+  },
+  {
+    "id": "84db447a",
+    "text": "constituição federal 2",
+    "href": "/geral/constituicao-federal"
+  },
+  {
+    "id": "63b56e50",
+    "text": "contestação 2",
+    "href": "/acoes/contestacao"
+  },
+  {
+    "id": "a3bf6144",
+    "text": "contraditório 2",
+    "href": "/geral/contraditorio"
+  },
+  {
+    "id": "3e3bdc94",
+    "text": "cumprimento de sentença 2",
+    "href": "/geral/cumprimento-de-sentenca"
+  },
+  {
+    "id": "c8f6f8ae",
+    "text": "curatela 2",
+    "href": "/geral/curatela"
+  },
+  {
+    "id": "518c536b",
+    "text": "defensoria pública 2",
+    "href": "/geral/defensoria-publica"
+  },
+  {
+    "id": "87a7b89d",
+    "text": "depósito judicial 2",
+    "href": "/geral/deposito-judicial"
+  },
+  {
+    "id": "5884fdef",
+    "text": "direito administrativo 2",
+    "href": "/ramos/direito-administrativo"
+  },
+  {
+    "id": "e9d0a3ed",
+    "text": "direito ambiental 2",
+    "href": "/ramos/direito-ambiental"
+  },
+  {
+    "id": "7bb6e451",
+    "text": "direito civil 2",
+    "href": "/ramos/direito-civil"
+  },
+  {
+    "id": "ff828d96",
+    "text": "direito constitucional 2",
+    "href": "/ramos/direito-constitucional"
+  },
+  {
+    "id": "0158077d",
+    "text": "direito da criança e do adolescente 2",
+    "href": "/ramos/direito-da-crianca-e-do-adolescente"
+  },
+  {
+    "id": "42735db4",
+    "text": "direito das sucessões 2",
+    "href": "/ramos/direito-das-sucessoes"
+  },
+  {
+    "id": "d29988b2",
+    "text": "direito de família 2",
+    "href": "/ramos/direito-de-familia"
+  },
+  {
+    "id": "5d3654a3",
+    "text": "direito do consumidor 2",
+    "href": "/ramos/direito-do-consumidor"
+  },
+  {
+    "id": "4d176612",
+    "text": "direito do trabalho 2",
+    "href": "/ramos/direito-do-trabalho"
+  },
+  {
+    "id": "c39e93be",
+    "text": "direito eleitoral 2",
+    "href": "/ramos/direito-eleitoral"
+  },
+  {
+    "id": "8a0dbf79",
+    "text": "direito empresarial 2",
+    "href": "/ramos/direito-empresarial"
+  },
+  {
+    "id": "f07c5158",
+    "text": "direito internacional 2",
+    "href": "/ramos/direito-internacional"
+  },
+  {
+    "id": "e91c69b6",
+    "text": "direito penal 2",
+    "href": "/ramos/direito-penal"
+  },
+  {
+    "id": "8fe4f321",
+    "text": "direito previdenciário 2",
+    "href": "/ramos/direito-previdenciario"
+  },
+  {
+    "id": "77c5a6af",
+    "text": "direito processual civil 2",
+    "href": "/ramos/direito-processual-civil"
+  },
+  {
+    "id": "f839d9c6",
+    "text": "direito processual penal 2",
+    "href": "/ramos/direito-processual-penal"
+  },
+  {
+    "id": "de1cd5c1",
+    "text": "direito tributário 2",
+    "href": "/ramos/direito-tributario"
+  },
+  {
+    "id": "4c90a5b2",
+    "text": "embargos à execução 2",
+    "href": "/geral/embargos-a-execucao"
+  },
+  {
+    "id": "890e9205",
+    "text": "embargos de declaração 2",
+    "href": "/acoes/embargos-de-declaracao"
+  },
+  {
+    "id": "d6923eeb",
+    "text": "execução fiscal 2",
+    "href": "/geral/execucao-fiscal"
+  },
+  {
+    "id": "709b8a39",
+    "text": "falência 2",
+    "href": "/geral/falencia"
+  },
+  {
+    "id": "dcf380a2",
+    "text": "recuperação judicial 2",
+    "href": "/acoes/recuperacao-judicial"
+  },
+  {
+    "id": "dacc58c2",
+    "text": "guarda compartilhada 2",
+    "href": "/geral/guarda-compartilhada"
+  },
+  {
+    "id": "083d748b",
+    "text": "habeas corpus 2",
+    "href": "/geral/habeas-corpus"
+  },
+  {
+    "id": "5dcc238c",
+    "text": "habeas data 2",
+    "href": "/geral/habeas-data"
+  },
+  {
+    "id": "2b910c80",
+    "text": "homologação de acordo 2",
+    "href": "/acoes/homologacao-de-acordo"
+  },
+  {
+    "id": "c641ea05",
+    "text": "improbidade administrativa 2",
+    "href": "/geral/improbidade-administrativa"
+  },
+  {
+    "id": "2cc90c54",
+    "text": "inquérito policial 2",
+    "href": "/geral/inquerito-policial"
+  },
+  {
+    "id": "80d9e29c",
+    "text": "inventário 2",
+    "href": "/geral/inventario"
+  },
+  {
+    "id": "14bd966a",
+    "text": "jurisdição 2",
+    "href": "/geral/jurisdicao"
+  },
+  {
+    "id": "80a8f3a6",
+    "text": "jurisprudência 2",
+    "href": "/geral/jurisprudencia"
+  },
+  {
+    "id": "37fdc0d2",
+    "text": "juizado especial 2",
+    "href": "/geral/juizado-especial"
+  },
+  {
+    "id": "06ec0649",
+    "text": "lei maria da penha 2",
+    "href": "/leis/lei-maria-da-penha"
+  },
+  {
+    "id": "ecb3643b",
+    "text": "lei geral de proteção de dados 2",
+    "href": "/leis/lei-geral-de-protecao-de-dados"
+  },
+  {
+    "id": "882c7268",
+    "text": "licitação 2",
+    "href": "/acoes/licitacao"
+  },
+  {
+    "id": "fef5523d",
+    "text": "mandado de injunção 2",
+    "href": "/geral/mandado-de-injuncao"
+  },
+  {
+    "id": "3930b044",
+    "text": "mandado de segurança 2",
+    "href": "/geral/mandado-de-seguranca"
+  },
+  {
+    "id": "2ed203ad",
+    "text": "mediação 2",
+    "href": "/acoes/mediacao"
+  },
+  {
+    "id": "896a42e3",
+    "text": "ministério público 2",
+    "href": "/geral/ministerio-publico"
+  },
+  {
+    "id": "bdb9819d",
+    "text": "pedido liminar 2",
+    "href": "/geral/pedido-liminar"
+  },
+  {
+    "id": "0807abd3",
+    "text": "perícia judicial 2",
+    "href": "/geral/pericia-judicial"
+  },
+  {
+    "id": "9b6203a4",
+    "text": "petição inicial 2",
+    "href": "/geral/peticao-inicial"
+  },
+  {
+    "id": "6dc9a1ad",
+    "text": "posse 2",
+    "href": "/geral/posse"
+  },
+  {
+    "id": "70ea6562",
+    "text": "prescrição 2",
+    "href": "/geral/prescricao"
+  },
+  {
+    "id": "c200422e",
+    "text": "prisão preventiva 2",
+    "href": "/geral/prisao-preventiva"
+  },
+  {
+    "id": "0a67c567",
+    "text": "prisão temporária 2",
+    "href": "/geral/prisao-temporaria"
+  },
+  {
+    "id": "1c2c8728",
+    "text": "processo eletrônico 2",
+    "href": "/geral/processo-eletronico"
+  },
+  {
+    "id": "a6b1fd84",
+    "text": "prova documental 2",
+    "href": "/geral/prova-documental"
+  },
+  {
+    "id": "0baa107d",
+    "text": "prova testemunhal 2",
+    "href": "/geral/prova-testemunhal"
+  },
+  {
+    "id": "18752e71",
+    "text": "prova pericial 2",
+    "href": "/geral/prova-pericial"
+  },
+  {
+    "id": "7640bfb8",
+    "text": "recurso adesivo 2",
+    "href": "/recursos/recurso-adesivo"
+  },
+  {
+    "id": "cf8391cc",
+    "text": "recurso especial 2",
+    "href": "/recursos/recurso-especial"
+  },
+  {
+    "id": "96fc20e9",
+    "text": "recurso extraordinário 2",
+    "href": "/recursos/recurso-extraordinario"
+  },
+  {
+    "id": "2fb825c1",
+    "text": "recurso ordinário 2",
+    "href": "/recursos/recurso-ordinario"
+  },
+  {
+    "id": "134cebdb",
+    "text": "sentença 2",
+    "href": "/geral/sentenca"
+  },
+  {
+    "id": "b92692e1",
+    "text": "súmula 2",
+    "href": "/geral/sumula"
+  },
+  {
+    "id": "b7738249",
+    "text": "súmula vinculante 2",
+    "href": "/geral/sumula-vinculante"
+  },
+  {
+    "id": "7a7dd5cb",
+    "text": "tutela antecipada 2",
+    "href": "/geral/tutela-antecipada"
+  },
+  {
+    "id": "b18d698d",
+    "text": "tutela de evidência 2",
+    "href": "/geral/tutela-de-evidencia"
+  },
+  {
+    "id": "f559ba6e",
+    "text": "tutela provisória 2",
+    "href": "/geral/tutela-provisoria"
+  },
+  {
+    "id": "e3e02354",
+    "text": "tutela de urgência 2",
+    "href": "/geral/tutela-de-urgencia"
+  },
+  {
+    "id": "92b85f20",
+    "text": "usucapião 2",
+    "href": "/geral/usucapiao"
+  },
+  {
+    "id": "7cd00774",
+    "text": "vara cível 2",
+    "href": "/geral/vara-civel"
+  },
+  {
+    "id": "fe5b8a28",
+    "text": "vara criminal 2",
+    "href": "/geral/vara-criminal"
+  },
+  {
+    "id": "30473a80",
+    "text": "vínculo empregatício 2",
+    "href": "/geral/vinculo-empregaticio"
+  },
+  {
+    "id": "0ad508f7",
+    "text": "violência doméstica 2",
+    "href": "/geral/violencia-domestica"
+  }
+]
