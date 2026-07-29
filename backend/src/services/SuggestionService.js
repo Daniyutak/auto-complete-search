@@ -3,6 +3,15 @@ import suggestions from "../data/suggestions.json" with { type: "json" };
 import env from "../config/env.js";
 import normalizeText from "../utils/normalizeText.js";
 
+const indexedSuggestions = suggestions.map((suggestion) => ({
+
+    ...suggestion,
+
+    normalizedText:
+        normalizeText(suggestion.text)
+
+}));
+
 class SuggestionService {
 
     getSuggestions(query) {
@@ -26,7 +35,7 @@ class SuggestionService {
 
     searchSuggestions(query) {
 
-    const normalizedQuery = normalizeText(query);
+    const suggestionText = suggestion.normalizedText;
 
     const results = [];
 
