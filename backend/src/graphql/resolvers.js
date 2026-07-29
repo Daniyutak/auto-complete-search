@@ -1,7 +1,13 @@
-const resolvers = {
-  Query: {
-    hello: () => "Hello World!"
-  }
-};
+import suggestionService from "../services/SuggestionService.js";
 
-export default resolvers;
+export default {
+
+    Query: {
+
+        suggestions(_, { query }) {
+            return suggestionService.getSuggestions(query);
+        }
+
+    }
+
+};
