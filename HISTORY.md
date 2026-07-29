@@ -35,8 +35,40 @@ _________________________________________________________
 
 ### - Usos no código
 - Primeiramente, utilizei para pedir informações e criar uma função teste do backend. Importante reforçar que inicialmente o agente sugeriu o uso de uma versão recente do Apollo Server, mas isso complicaria muito o desenvolvimento em curto prazoo. Para projetos de maior tamanho e com outros objetivos, seria recomendado o uso da versão mais recente, mas como o objetivo do desafio era demonstrar organização, arquitetura e qualidade da implementação do autocomplete, optei por uma versão do Apollo Server cuja API é mais simples e bem documentada. Isso me permitiu concentrar o tempo na lógica da aplicação em vez de gastar boa parte do prazo configurando a infraestrutura.
+- Utilizei posteriormente para gerar um json que se adequa-se ao projeto. Primeiro busquei procurar no kaggle, mas optei para criar um personalizado considerando que o objetivo não era ser muito grande e o tempo para buscar um json era muito grande. Pedi que ele gerasse um código para gerar ids aleatórios para esse json e ele funcionou perfeitamente. Dessa forma, o agente não sabe os ids em si, mas ainda assim me poupou o tempo de criar o código e a base.
+- Também dei o contexto geral do código, descrevendo o que gostaria de fazer e ele sugeriu ideias de código que pude adaptar. Expliquei detalhadamente que é um projeto de pequeno porte, quais os objetivos e qual a formatação e ele criou algumas sugestões de códigos que poderiam ser úteis. Usei o código de formatação e a recomendação de um "config.js" que permite maior manutenabilidade caso queira realizar mudanças nas variáveis ambiente (.env). Acredito que o agente pensou em detalhes específicos que foram interessantes nesse caso, mas não eram totalmente necessários no cenário do desafio.
+- O agente também sugeriu realizar mudanças no código apartir do arquivo medium e, pensando na manutenabilidade e segurança, foi realizada uma mudança arquitetural grande: separar os serviços da interface do GraphQL, impedindo que ficasse responsável pelo código caso haja necessidade de mudanças futuras (como trocar API poderia reutilizar o service).
+- Se houvesse necessidade de trocar o json por outro tipo de estrutura de dados, poderia mudar diretamente no service. Quanto mais encapsulado, melhor ficaria a manutenabilidade e adaptabilidade.
+- Quando solicitado para fazer a função de busca dos 20 resultados de sugestão, o agente criou uma query que primeiro passava por TODOS os resultados e só então fazia um slice para retornar, porém esse código era inviável, mesmo para um projeto pequeno. Assim, pedi para refatorar essa parte, descrevendo a lógica com mais detalhes de como poderia ser melhorado, aplicando senso crítico e lógica básica, mesmo sem ter total conhecimento da ferramenta. A complexidade ainda é O(n) mas isso é apenas no pior caso e diminui a quantidade de piores casos.
+- Houve outros grandes usos de IA, mas nunca cegamente. Inclusive, para debugar é possível sugerir para a IA, mas muitas vezes apenas analisando novamente o código e o que foi feito era possível entender o que estava errado.
 
 ## Usos de open-source:
 - primeiramente o gitignore, feito com base no [gitignore do github](https://github.com/github/gitignore)
 - README, baseado no [template](https://github.com/petsi-each/pet-sites-boilerplate) feito pela organização que participei e depois readaptado. Como é uma questão de documentação inicial e foi tomado cuidado, não havia riscos de segurança.
-- 
+- Também encontrei alguns códigos que me ajudaram para tomar uma base do código: [kuraydev-react-searchbar](https://github.com/kuraydev/react-native-header-search-bar); [medium: autocomplete with apollo and ant design](https://medium.com/@timothyde/setting-up-autocomplete-with-react-apollo-graphql-and-ant-design-5ce650623bb7);
+  - em comparação ao arquivo do medium, além de reduzir a complexidade outras funções foram atualizadas então o código não foi exatamente reutilizado:
+  	> Em vez de construir toda a lógica de busca de uma vez, estamos estabelecendo primeiro a comunicação entre as camadas: GraphQL recebe a requisição -> O resolver delega ao serviço -> O serviço acessa os dados. -> O serviço retorna os dados. -> Só depois adicionamos filtros e regras
+	== menos quantidade de mudanças por etapa + facilita a depuração 	
+
+## testes
+para testar o front e o back, não tenho muita experiencia de automatizar então testei na mão apenas casos simples
+
+**ex:**
+- responsividade com o celular z fold pois sua largura é muito diferente de uma tela de computador
+
+## O que eu gostaria de melhorar:
+- usar melhor o CI que eu acabei desistindo de reajustar
+- Reajustar front-end para uma interação mais próxima do usuário (como por exemplo ajustar bugs relacionados ao hover e ao bold)
+- utilizar melhor o kanban que deixou de ser usado na correria
+- utilizar um banco de dados melhor
+- documentação melhor
+- dockerizar um pouco antes
+- deixar codigo do front end mais bonito (usar o tailwind e fazer um código limpo)
+- atomizar ainda mais os commits do front
+
+## O que eu gostei:
+- implementar e me desafiar com aprendizados muito novos
+- implementar funcionalidades imaginando o usuário que iria utilizá-las
+
+## Onde eu falhei:
+- muito tempo na documentação e planejamento, pois não sabia muito como começar o projeto
