@@ -4,6 +4,8 @@ import { FaSearch } from "react-icons/fa";
 import { useLazyQuery } from "@apollo/client/react";
 import { GET_SUGGESTIONS } from "../graphql/queries";
 
+console.log(import.meta.env.VITE_API_BASE_URL);
+
 export default function SearchBar() {
 
     const [value, setValue] = useState("");
