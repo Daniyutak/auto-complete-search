@@ -12,13 +12,26 @@ class SuggestionService {
 
     getSuggestions(query) {
 
-        if (!this.validateQuery(query)) {
-            return [];
+        try {
+
+            if (!this.validateQuery(query)) {
+                return [];
+            }
+
+            return this.searchSuggestions(query);
+
+        } catch (error) {
+
+            console.error("[SuggestionService] Error while searching suggestions:");
+            console.error(error);
+
+            // Deixa o resolver decidir como responder ao cliente.
+            throw error;
+
         }
 
-        return this.searchSuggestions(query);
-
     }
+
 
     validateQuery(query) {
 

@@ -4,14 +4,31 @@ import typeDefs from "./graphql/schema.js";
 import resolvers from "./graphql/resolvers.js";
 
 
-const server = new ApolloServer({
-    typeDefs,
-    resolvers
-});
+async function startServer() {
 
-await server.listen({
-    port: env.PORT
-}).then(({ url }) => {
-    console.log(`Server ready: ${url}`);
-});
+    try {
 
+        const server = new ApolloServer({
+            typeDefs,
+            resolvers,
+        });
+
+        const { url } = await server.listen({
+            port: env.PORT,
+        });
+
+        console.log(`🚀 Server running at ${url}`);
+
+    }
+    catch (error) {
+
+        console.error("Failed to start Apollo Server.");
+        console.error(error);
+
+        process.exit(1);
+
+    }
+
+}
+
+startServer();
