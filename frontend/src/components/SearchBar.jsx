@@ -76,20 +76,24 @@ export default function SearchBar() {
                 setValue(text);
                 setPreviewValue("");
 
-                if (text.length >= 4) {
-                    const response = await getSuggestions({
+                    if (text.length >= 4) {
+                        try {
+                            const response = await getSuggestions({
+                                variables: {
+                                    query: text
+                                }
+                            });
+                            setSuggestions(
+                                response.data?.suggestions ?? []
+                            );
 
-                    variables: {
-                query: text
-                }
+                        } catch (error) {
+                            console.error("Erro ao buscar sugestões:", error);
+                            setSuggestions([]);
+                        }
 
-                });
 
-                setSuggestions(
-                response.data.suggestions
-                );
-
-                    } else {SetSuggestions([]);}
+                    } else {setSuggestions([]);}
                     }}
                     onKeyDown={handleKeyDown}
                     className="
